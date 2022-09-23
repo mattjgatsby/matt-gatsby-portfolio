@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    padding: 40px;
+    background-color: royalblue;
+    color: aliceblue;
+}
