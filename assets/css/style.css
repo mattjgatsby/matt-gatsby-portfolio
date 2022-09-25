@@ -1,3 +1,6 @@
+:root {
+    
+}
 * {
     box-sizing: border-box;
 }
@@ -6,4 +9,35 @@ header {
     padding: 40px;
     background-color: royalblue;
     color: aliceblue;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+article {
+    display: block;
+}
+
+article h2 {
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    background-color: silver;
+    width: 25%;
+    font-size: 50px;
+}
+article p {
+    display: flex;
+    width: 25%;
+    background-color: silver;
+    font-size: 25px;
+}
+article li {
+    display: flex;
+    width: 20%;
+    margin: 10px;
+    background-color: silver;
 }
