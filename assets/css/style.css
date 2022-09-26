@@ -1,15 +1,25 @@
 :root {
-    
+    --background-header: royalblue;
+    --background-main: silver;
+    --text-color:black;
+
 }
 * {
     box-sizing: border-box;
 }
+
+h1 {
+    font-size: 40px;
+}
+
 header {
     font-family:Georgia, Times, 'Times New Roman', serif;
     padding: 40px;
-    background-color: royalblue;
-    color: aliceblue;
+    background-color: var(--background-header);
+    color: var(--text-color);
     text-align: center;
+    display:flex; 
+    justify-content: space-evenly  ;
 }
 nav {
     display: flex;
@@ -18,7 +28,9 @@ nav {
 }
 
 article {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 article h2 {
@@ -37,6 +49,7 @@ article p {
 }
 article li {
     display: flex;
+    justify-content:center;
     width: 20%;
     margin: 10px;
     background-color: silver;
