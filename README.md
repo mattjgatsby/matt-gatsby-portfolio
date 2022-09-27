@@ -5,7 +5,7 @@ This is my professional portfolio. I built this page using the skills I've learn
 I put together this portfolio in hopes to show off to recruiters and employers to view.
 
 ## Visit the site!
-![Deployed site](https://mattjgatsby.github.io/matt-gatsby-portfolio/)
+[Vist my deployed site](https://mattjgatsby.github.io/matt-gatsby-portfolio/)
 
 
 
