@@ -1,3 +1,5 @@
+/*started off using root in order to streamline use of color throughout css*/
+
 :root {
     --background-header: royalblue;
     --background-main: rgb(184, 191, 255);
@@ -8,15 +10,18 @@
 * {
     box-sizing: border-box;
 }
+/*giving the html the ability to smoothly scroll down the page */
 hmtl {
     scroll-behavior: smooth;
 }
+/*used display flex throughout the css along with other properties in order to get the proper alignment I was looking for */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     background-color: var(--background-main);
 }
+
 header {
     display: flex;
     justify-content: center;
@@ -26,16 +31,20 @@ header {
     align-items: center;
     background-color: var(--background-header);
 }
+/* I used a few different class variables throught the css to achieve the desired look. For the img I was looking to keep
+the picture of myself to a reasonable size without going overboard */
 .img {
     display: flex;
     margin: auto;
     width: 20%;
 }
+
 h1 {
     display: flex;
     font-size: 35px;
     margin: auto;
 }
+
 nav li {
    display: inline;
    margin-right: 20px;
@@ -48,21 +57,25 @@ h2 {
     font-weight: bold;
     margin: 1px;
 }
+
 section {
     display: block;
 }
+
 section h2 {
     border-width: 1px;
     text-align: center;
     border-radius: 5px;
     width: 100%;
 }
+
 p {
     display: block;
     margin: auto;
     text-align: center;
     width: 25%;
 }
+
 .section {
     display:flex;
     flex-wrap: wrap;
@@ -71,21 +84,24 @@ p {
     margin: auto;
     width: 100%;
 }
+
 .project-heading {
     display: block;
 }
+
 article {
     
     padding: 10px;
     margin: auto;
     width: 100%;
 }
+
 .placement {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
+/* here I decided to give a small bit of flavour to my fonts with the text decoration, font style and weight */
 .h3 {
     display: flex;
     flex-direction: column;
