@@ -12,23 +12,24 @@
     <body>
         <header>
             <h1>Matt Gatsby's Portfolio</h1>
-            <nav>
+            <nav >
                 <ul>
                     <li>
-                        <a href="#1">About Me</a>
+                        <a href="#about">About Me</a>
                     </li>
                     <li>
-                        <a href="#2">Projects</a>
+                        <a href="#project">Projects</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
             <section>
-                <h2>About Me</h2>
+                <h2 id="about">About Me</h2>
+                    <img class="img" src="./assets/Images/Me2019.png" alt="picture of me">
                 <p>
                     Born in 1994, I've grown up with an ever changing computer technology.
                     Always having to learn and adapt to new technology, I strive to constantly 
@@ -36,30 +37,38 @@
                     in 2022 where I continue to expand my full stack knowledge.
                 </p>
             </section>
-            <section>
-                <h2>Projects</h2>
+            <section class="section">
+                <h2 id="project">Projects</h2>
                     <article>
-                        <h3>Horiseon</h3>
-                            <a href="https://mattjgatsby.github.io/horiseon-accessibility/">
-                            <img src="./assets/Images/horiseon screenshot.png" alt="Horiseon website screenshot" width="35%">
-                            </a>
+                        <h3 class="project-heading h3 flavour">Horiseon</h3>
+                            <section class="placement">
+                                <a href="https://mattjgatsby.github.io/horiseon-accessibility/">
+                                 <img src="./assets/Images/horiseon screenshot.png" alt="Horiseon website screenshot" width="35%">
+                                 </a>
+                            </section>
                     </article>
                     <article>
-                        <h3>My Landing Page</h3>
-                            <a href="https://mattjgatsby.github.io/personal-webpage/">
-                                <img src="./assets/Images/My landing page screenshot.png" alt="My personal landing page" width="30%">
-                            </a>
+                        <h3 class="h3">My Landing Page</h3>
+                            <section class="placement">
+                                <a href="https://mattjgatsby.github.io/personal-webpage/">
+                                    <img src="./assets/Images/My landing page screenshot.png" alt="My personal landing page" width="30%">
+                                 </a>
+                            </section>
                     </article>
                     <article>
-                        <h3>PlaceHolder</h3>
-                        <img src="./assets/Images/coming-soon-store-placeholder-image.webp" alt="Placeholder image" width="30%">
+                        <h3 class="h3">PlaceHolder</h3>
+                             <section class="placeholder">
+                                 <img  src="./assets/Images/coming-soon-store-placeholder-image.webp" alt="Placeholder image" width="30%">
+                             </section>
                     </article>
             </section>
             <section>
-                <h2>Contact</h2>
-                <a href="mailto:matthewjamesgatsby@mgail.com">Gmail</a>
-                <a href="https://github.com/mattjgatsby">Github</a>
-                <a href="https://www.linkedin.com/in/matthew-gatsby-1a1521250/">LinkedIn</a>
+                <h2 id="contact">Contact</h2>
+                <p class="centered">
+                    <a href="mailto:matthewjamesgatsby@mgail.com">Gmail</a>
+                    <a href="https://github.com/mattjgatsby">Github</a>
+                    <a href="https://www.linkedin.com/in/matthew-gatsby-1a1521250/">LinkedIn</a>
+                </p>
 
             </section>
         </main>
