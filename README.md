@@ -2,7 +2,7 @@
 
 ## About
 This is my professional portfolio. I built this page using the skills I've learned with HTML and CSS.
-I put together this portfolio in hopes to show off to recruiters and employers to view.
+I put together this portfolio in hopes to show off to future recruiters and employers.
 
 ## Visit the site!
 [Vist my deployed site](https://mattjgatsby.github.io/matt-gatsby-portfolio/)
