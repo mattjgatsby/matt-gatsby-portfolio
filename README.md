@@ -4,6 +4,10 @@
 This is my professional portfolio. I built this page using the skills I've learned with HTML and CSS.
 I put together this portfolio in hopes to show off to recruiters and employers to view.
 
+## Visit the site!
+![Deployed site](https://mattjgatsby.github.io/matt-gatsby-portfolio/)
+
+
 
 ![Site Screenshot](./assets/Images/portfolio%20screenshot.png)
 
