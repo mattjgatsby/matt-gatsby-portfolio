@@ -35,3 +35,23 @@ nav li {
     left: 800px;
     max-width:max-content;
 }
+h2 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1px;
+}
+section {
+    display: block;
+}
+section h2 {
+    border-width: 1px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+
+}
+p {
+    display: block;
+    margin: 1px;
+}
